@@ -54,7 +54,10 @@ require("yatline"):setup({
 })
 
 ```
+# Resources
 
+- [Rose pine theme for yazi](https://github.com/rose-pine/yazi)
+- [Yatline](https://github.com/imsi32/yatline.yazi)
 
 ## Thanks to
 
