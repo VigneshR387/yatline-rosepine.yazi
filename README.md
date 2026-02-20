@@ -5,17 +5,11 @@
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
 
-## Usage
-
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
-
 ## Gallery
 
 ### Rosé Pine
 
-<img width="256" alt="Rosé Pine with App" src="https://github.com/user-attachments/assets/3d9df6a3-0ee3-43f2-b934-83cf8f2806c2" />
+<img width="256" alt="Rosé Pine with yatline" src="assets/yatline-rospine.png" />
 
 ### Rosé Pine Moon
 
@@ -24,6 +18,14 @@
 ### Rosé Pine Dawn
 
 <img width="256" alt="Rosé Pine Dawn with App" src="https://github.com/user-attachments/assets/fb1b1d16-55e8-45db-b388-7c25250b8022" />
+
+
+## Usage
+
+1. Open App
+2. Under settings, import `rose-pine.theme`
+3. Select `Rosé Pine` from the themes dropdown
+
 
 ## Thanks to
 
