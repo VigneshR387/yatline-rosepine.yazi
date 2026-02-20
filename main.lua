@@ -62,9 +62,8 @@ local function rosepine_theme(flavor)
   	  dawn = rose_pine_dawn_palette,
 	 }
 	local rosepine_palette = palettes[flavor]
-
-
-	 return  {
+	
+	local theme =  {
 	 	section_separator = { open = "", close = "" }, --  icons ("", "") 
 	 	part_separator = { open = "", close = "" },
 	 	inverse_separator = { open = "", close = "" },
@@ -96,7 +95,24 @@ local function rosepine_theme(flavor)
 	 	success = { icon = "", fg = rosepine_palette.Foam },
 	 	failed = { icon = "", fg = rosepine_palette.Love },
 	 }
-	
+	if flavor == "dawn" then
+			-- style a
+			theme.style_a.fg = rosepine_palette.HighlightLow
+	        theme.style_a.bg_mode.normal = rosepine_palette.Rose
+	        theme.style_a.bg_mode.select = rosepine_palette.Gold
+	        theme.style_a.bg_mode.un_set = rosepine_palette.Love
+
+	        -- style b
+	        theme.style_b.bg = rosepine_palette.Subtle
+	       theme.style_b.fg = rosepine_palette.HighlightLow
+
+	        -- style c
+	        theme.style_c.bg = rosepine_palette.Overlay
+	        theme.style_c.fg = rosepine_palette.Pine
+
+	        
+	 end
+	return theme
 end
 
 return {
@@ -105,3 +121,4 @@ return {
         return rosepine_theme(flavor)
     end,
 }
+
